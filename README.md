@@ -1,5 +1,5 @@
 # DEST — Discrete Electromagnetic Spacetime Theory
-
+!DOI
 **DEST** (Discrete Electromagnetic Spacetime Theory) is a unified, mechanistic program in which observables emerge from a single action with **tick‑quantized local updates**, a scalar **Θ‑curvature** that acts as effective geometry, **integerized electromagnetic (EB) content** at the cell level, and a foundational **e/3 compositeness** postulate for electric content.
 
 This repository contains the first public disclosure of DEST, including the initial paper source, figures, and project scaffolding.
@@ -68,6 +68,21 @@ Use TeXstudio for an easier workflow.
 If you reference DEST, please cite the repository and the LaTeX source in `paper/`.
 
 **Acknowledgments** — I am grateful to the science communicators on YouTube and other open platforms who bring advanced ideas to broad audiences and help keep complex scientific concepts in active public conversation.
+
+---
+
+## How to cite
+
+Henkel, C. (2026). *Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework* (v0.1-public). Zenodo. https://doi.org/10.5281/zenodo.18797737
+
+@software{henkel_dest_2026_v01,
+  author       = {Henkel, Christopher},
+  title        = {Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework},
+  year         = {2026},
+  version      = {v0.1-public},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18797737}
+}
 
 ---
 
