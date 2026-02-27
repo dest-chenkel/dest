@@ -1,5 +1,7 @@
 # DEST — Discrete Electromagnetic Spacetime Theory
+
 !DOI
+
 **DEST** (Discrete Electromagnetic Spacetime Theory) is a unified, mechanistic program in which observables emerge from a single action with **tick‑quantized local updates**, a scalar **Θ‑curvature** that acts as effective geometry, **integerized electromagnetic (EB) content** at the cell level, and a foundational **e/3 compositeness** postulate for electric content.
 
 This repository contains the first public disclosure of DEST, including the initial paper source, figures, and project scaffolding.
