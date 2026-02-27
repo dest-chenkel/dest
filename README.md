@@ -1,6 +1,7 @@
 # DEST — Discrete Electromagnetic Spacetime Theory
 
-!DOI
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18797737.svg)](https://doi.org/10.5281/zenodo.18797737)
+
 
 **DEST** (Discrete Electromagnetic Spacetime Theory) is a unified, mechanistic program in which observables emerge from a single action with **tick‑quantized local updates**, a scalar **Θ‑curvature** that acts as effective geometry, **integerized electromagnetic (EB) content** at the cell level, and a foundational **e/3 compositeness** postulate for electric content.
 
@@ -73,21 +74,6 @@ If you reference DEST, please cite the repository and the LaTeX source in `paper
 
 ---
 
-## How to cite
-
-Henkel, C. (2026). *Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework* (v0.1-public). Zenodo. https://doi.org/10.5281/zenodo.18797737
-
-@software{henkel_dest_2026_v01,
-  author       = {Henkel, Christopher},
-  title        = {Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework},
-  year         = {2026},
-  version      = {v0.1-public},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18797737}
-}
-
----
-
 ## 📝 License
 See `LICENSE` at the repo root.
 
@@ -97,3 +83,18 @@ See `LICENSE` at the repo root.
 - **Author:** Christopher Henkel  
 - **Email:** christopher.henkel@gmail.com  
 - **GitHub:** https://github.com/dest-chenkel/dest
+
+## How to cite
+
+Henkel, C. (2026). *Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework* (v0.1-public). Zenodo. https://doi.org/10.5281/zenodo.18797737
+
+```bibtex
+@software{henkel_dest_2026_v01,
+  author       = {Henkel, Christopher},
+  title        = {Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework},
+  year         = {2026},
+  version      = {v0.1-public},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18797737}
+}
+```
