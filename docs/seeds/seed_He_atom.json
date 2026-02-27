@@ -1,0 +1,19 @@
+{
+  "system": "He_atom",
+  "nucleus": {"type": "alpha_like", "species": "S0009_SP_proton", "position": [0,0,0], "note": "use stronger Theta profile"},
+  "electrons": [
+    {"species": "S0005_atomic_electron", "anchors": [
+      {"pos": [2,0,0], "E_mag": +1, "B_mag": 0, "direction": [0,1,0]},
+      {"pos": [-1,1.732,0], "E_mag": +1, "B_mag": 0, "direction": [-0.866,-0.5,0]},
+      {"pos": [-1,-1.732,0], "E_mag": +1, "B_mag": 0, "direction": [0.866,-0.5,0]}
+    ], "noise_phase": 0.02},
+    {"species": "S0005_atomic_electron", "anchors": [
+      {"pos": [-2,0,0], "E_mag": +1, "B_mag": 0, "direction": [0,-1,0]},
+      {"pos": [1,-1.732,0], "E_mag": +1, "B_mag": 0, "direction": [0.866,0.5,0]},
+      {"pos": [1,1.732,0], "E_mag": +1, "B_mag": 0, "direction": [-0.866,0.5,0]}
+    ], "noise_phase": 0.02}
+  ],
+  "lattice": {"L": 72, "a": 1.0},
+  "elasticity": {"epsilon": 2},
+  "run": {"ticks": 240000}
+}

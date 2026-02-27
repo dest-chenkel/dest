@@ -1,0 +1,18 @@
+
+00README for arXiv processing
+=============================
+
+Main file: Henkel_DEST_2026.tex
+TeX engine: pdflatex
+
+This submission includes the LaTeX source and figure files referenced by the paper.
+Paths to figures are relative to the submission root (no absolute paths).
+All file names use only [A-Za-z0-9_+\-.,=] as required by arXiv.
+
+Notes
+-----
+- If a .bib file is provided, arXiv will run BibTeX/Biber; otherwise a generated .bbl is included.
+- No nonstandard fonts or shell-escape are required.
+- Mixed figure formats are avoided. Prefer PDF/PNG/JPG for pdflatex; EPS only for latex -> ps -> pdf.
+
+Contact: christopher.henkel@gmail.com

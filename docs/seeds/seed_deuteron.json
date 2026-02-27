@@ -1,0 +1,11 @@
+{
+  "system": "deuteron",
+  "loops": [
+    {"species": "S0009_SP_proton", "center": [-1,0,0]},
+    {"species": "S0010_SN_neutron", "center": [1,0,0]}
+  ],
+  "lattice": {"L": 96, "a": 1.0},
+  "elasticity": {"epsilon": 3},
+  "run": {"ticks": 320000},
+  "note": "Treat nuclear binding as partial sharing of loop orientation in an overlap Θ well."
+}

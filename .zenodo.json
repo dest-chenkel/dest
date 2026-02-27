@@ -1,0 +1,31 @@
+{
+  "title": "Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "description": "First public release of DEST paper and repository scaffold.",
+  "creators": [
+    {
+      "name": "Henkel, Christopher",
+      "affiliation": "",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "DEST",
+    "discrete electromagnetism",
+    "e/3",
+    "Theta curvature",
+    "EB counters"
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/dest-chenkel/dest",
+      "scheme": "url"
+    }
+  ],
+  "notes": "This metadata file is optional. If present, Zenodo will prioritize these fields over CITATION.cff for the deposit record."
+}

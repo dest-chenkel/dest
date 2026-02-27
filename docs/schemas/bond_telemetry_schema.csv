@@ -1,0 +1,8 @@
+column,description
+step,simulation tick index
+region,left_nucleus|right_nucleus|bond_midplane|outer
+anchor_id,anchor index
+occupancy,occupancy contribution in region
+shared_fraction,occupancy(bond_midplane)/sum(occupancy)
+Theta_overlap,Θ averaged in overlap region
+EB_error_overlap,EB ratio error averaged in overlap region

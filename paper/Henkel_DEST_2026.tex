@@ -1,0 +1,165 @@
+% DEST — First Publication (merged: Notes on Development + Triples mapping)
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\title{Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework}
+\author{Christopher Henkel\\\texttt{christopher.henkel@gmail.com}\\GitHub: \href{https://github.com/dest-chenkel/dest}{dest-chenkel/dest}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This paper establishes the \textbf{Discrete Electromagnetic Spacetime Theory (DEST)} as a unified framework in which \emph{all physical observables emerge} from a single action with tick‑quantized local updates and $\Theta$‑curvature. In the continuum limit, \emph{every complex phenomenon}—from atomic structure and spectroscopy to nuclear binding and gravity‑like effects—appears as a low‑energy, large‑scale limit of one field. I exhibit a single Lagrangian density $\mathcal{L}_{\mathrm{ToE}}$ whose terms encode drift/actualize dynamics $(\Delta S=h)$, integerized electromagnetic content, topological winding (charge), and $\Theta$‑induced effective geometry, with compositeness organized at the $e/3$ scale.\footnote{Mainstream accounts define the elementary charge $e$ as the freely observable unit; quarks carry $\pm\tfrac{1}{3}e,\pm\tfrac{2}{3}e$ but are confined and not isolated as free charges; the invariant vacuum light speed $c$ and null worldlines for radiation are standard results of Maxwell + SR. Background summaries: \emph{Elementary charge} (accessed 26 Feb 2026), and standard SR expositions on invariant $c$ and null worldlines.}
+\end{abstract}
+
+\section{Introduction}
+DEST is an axiomatically simple, mechanistic program: integer electromagnetic content (EB) transported near‑null by a unit direction field $\hat d\in S^2$, local updates that are tick‑quantized with cost $\Delta S=h$, and an emergent curvature measure $\Theta$ that acts as an effective geometry. Charge is topological (global winding of a minimal three‑anchor loop); photon‑like packets organize into integer \emph{n}‑classes with a stability hierarchy; and nuclear binding/decay arise from multi‑loop confinement and loop unlocking, respectively.
+
+As early semi‑classical precursors, toroidal‑topology photon models explored whether a constrained EM configuration could manifest charge, spin‑$\tfrac{1}{2}$, and an anomalous $g$ close to the electron’s value~\cite{WilliamsonVanDerMark1997}. That paper inspired my initial DEST exploration of loop topology and confinement.
+
+\paragraph{Forces in DEST (Reframing).} \textbf{EM (primitive).} Native EB dynamics with integer counters and drift alignment. \textbf{Gravity (emergent).} Sustained $\Theta$ patterns induce an effective metric $g^{\mathrm{eff}}$ (redshift, path bending, Shapiro‑like delay). \textbf{Weak (emergent unlocking).} Loop unlocking and re‑patterning with a small $n{=}1$ drift packet carrying bookkeeping (neutrino analogue); chemical bonds and nuclear weak transitions are the same sharing mechanism at different scales. \textbf{Strong (emergent confinement).} Multi‑loop confinement with $\sim120^{\circ}$ phase‑locked triads in shared $\Theta$ wells; high separation cost (confinement).
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.45\textwidth]{figures/electron_loop.png}\hfill
+  \includegraphics[width=.45\textwidth]{figures/positron_loop.png}
+  \caption{Schematic electron/positron 3‑anchor loops (mirror windings).}
+\end{figure}
+
+\noindent Taken together, these ingredients outline the operational picture I will formalize below. Before turning to the axioms, I highlight two guiding intuitions that anchor DEST’s novelty.
+
+% ===== Subsection 1: e/3 FIRST =====
+\subsection*{An intuition that reconfigured the picture: $e/3$ compositeness}
+\label{sec:intuition_e_over_3}
+
+A central intuition guiding DEST is the claim that the \textbf{minimum quantum of electric content is not $e$ but $e/3$}. Taking $e/3$ as the primitive quantum made it natural to treat the electron—and other stable configurations—not as single, indivisible objects but as \textbf{composites}. That conceptual shift unlocked a concrete mechanism by which ``the electron'' can \textbf{warp and bend into a toroidal geometry} without appealing to ad‑hoc local spatial nonlinearities. In this view, the familiar ``point charge that acts like a cloud'' is \emph{not} a probabilistic wavefunction awaiting collapse; rather, it is a \textbf{local, physical circulation} that can be described and calculated in ordinary geometric terms.
+
+This leap was sparked by historical experimental reports of \textbf{fractionalized electric response}, which at the time were widely treated as mathematical artifacts or bookkeeping conveniences for unstable excitations, rather than as literal evidence of irreducible fractional quanta. My choice was to \textbf{take that observation literally}. Once I did, a consistent picture followed in which compositeness at the $e/3$ level resolves multiple tensions at once: it supplies a physically intuitive basis for stable toroidal configurations, it demystifies why a ``point'' object projects an extended profile, and it aligns with the idea that complex phenomena can emerge from a small, discrete inventory of local operations.
+
+I view this as an \textbf{Einstein‑style} intuition: Maxwell’s equations imply a universal speed $c$ for vacuum radiation and null worldlines for light; Einstein’s step was to \emph{treat that invariance literally} and rebuild kinematics around it. Likewise here, the \emph{literal acceptance of a fractional quantum}—paired with a discrete EM substrate—rebuilds what ``an electron'' is made of and how it occupies space. The technical developments that follow in DEST are downstream of this single choice.
+
+% ===== Subsection 2: DISCRETE EB SECOND =====
+\subsection*{Discrete EB content (the mechanistic substrate)}
+\label{sec:discrete_EB}
+
+DEST posits that electromagnetic content is \textbf{fundamentally discrete} at the cell level. Local state carries integer counters for electric and magnetic content (EB) and for action ticks; updates are \emph{tick‑quantized} with unit cost $\Delta S=h$. This discretization is not a numerical device but an \emph{ontological} choice: the continuum fields of Maxwell and the operator fields of QED appear as \emph{emergent images} of an underlying EB ledger with integer increments.
+
+Three consequences follow.
+
+\emph{(i) Compositional power at the $e/3$ scale.} With $\varepsilon_0=e/3$ as the minimal electric step (Sec.~\ref{sec:intuition_e_over_3}), electron stability and other charged species are realized as \textbf{composites of EB quanta}, not as single irreducible objects. The discrete ledger makes the compositeness claim operational, providing a direct counting picture for charge, winding, and inventory conservation.
+
+\emph{(ii) Geometry from accounting.} The scalar field $\Theta$ counts expected \emph{actualize} ticks per affine length and defines an effective geometry $g^{\mathrm{eff}}(\Theta)$. In this view, curvature is the macroscopic image of systematic EB tick‑spend: sustained patterns of local reshape give rise to redshift, bending, and delay, while leaving the primitive EB rules simple and discrete.
+
+\emph{(iii) Unified mechanics.} Transport (drift), local reshape (actualize), and topological winding are statements about how EB counters move, lock, or re‑index under constraints. Weak‑like processes are unlocking and re‑patterning events with a small $n{=}1$ drift packet; strong‑like behavior is triadic phase‑lock and high separation cost in shared $\Theta$ wells. In all cases, the explanatory work is done by the EB ledger plus tick‑quantized updates.
+
+\paragraph{Why discreteness matters.}
+The discrete EB ontology is the \emph{mechanistic core} of DEST: it turns the $e/3$ principle into a calculable framework. Rather than \emph{assuming} a continuum field and \emph{then} quantizing excitations, DEST \emph{starts} from integer EB content and shows how continuum behavior and familiar field equations can emerge as large‑scale limits. This inversion lets compositeness, stability, and geometry be read directly from a small set of update rules.
+
+\section{Axioms and Ontology}
+\begin{enumerate}
+  \item \textbf{Cell state and units.} $(E_{mag},B_{mag},S_{ticks},T_{ticks},\hat d)$ with integer EB/action counters and $\hat d\in S^2$. Minimal electric step $\varepsilon_0=e/3$ (motivated in Sec.~\ref{sec:intuition_e_over_3}); EB counters and tick‑quantized updates define the discrete substrate (Sec.~\ref{sec:discrete_EB}); flux quantum $\Phi_0=h/(2e)$; transport invariant $c$.
+  \item \textbf{Drift vs. Actualize.} Per tick choose drift (rounded EB increments; rotate $\hat d$) or actualize (local reshape) with cost $\Delta S=h$.
+  \item \textbf{$\Theta$ curvature.} $\Theta(x)$ is the expected actualize‑tick density per affine length; sustained patterns induce $g^{\mathrm{eff}}$.
+  \item \textbf{Topology and charge.} Stable 3‑anchor loops carry global winding $W\in\{-1,0,+1\}$ interpreted as charge sign.
+\end{enumerate}
+
+\section{Master Lagrangian (concise representative)}
+\begin{align}
+\mathcal{L}_{\mathrm{ToE}} &= -\tfrac{1}{4}\,Z(\Theta)\,F_{\mu\nu}F^{\mu\nu}
+\;+\; \tfrac{\kappa_d}{2}\,\big\|\Pi_{\perp \hat d}\,S^{\mu}(F)\big\|^2
+\; - \; \mu\sum_{\chi\in\{\tilde E,\tilde B\}} \big[1-\cos(2\pi\chi)\big]\\[2pt]
+&\qquad -\; V(\Theta)
+\;+\; \Theta\,\mathcal{C}[F]
+\;+\; \tfrac{\kappa_H}{4}\,\epsilon^{\mu\nu\rho\sigma}A_\mu F_{\nu\rho}\,\hat d_\sigma
+\;+\; \lambda\,(|\hat d|^2-1)\,.
+\end{align}
+\noindent\emph{Legend:} $Z(\Theta)\Rightarrow g^{\mathrm{eff}}(\Theta)$; drift alignment via $\|\Pi_{\perp\hat d}S\|^2$; integerization through a clock/Villain cosine in $(\tilde E,\tilde B)$; tick‑cost with $\Theta$ and residual $\mathcal{C}[F]$; a topological coupling; and a unit‑norm constraint for $\hat d$.
+
+\section{Methods (explicit representatives)}
+\subsection{Residual $\mathcal{C}[F]$ (Maxwell strain)}
+\begin{equation}
+\mathcal{C}[F] \,=\, \alpha_1\,\big\|\partial_t\mathbf{E}-c\,\nabla\times\mathbf{B}\big\| + \alpha_2\,\big\|\partial_t\mathbf{B}+c\,\nabla\times\mathbf{E}\big\|\,.
+\end{equation}
+
+\subsection{Integerization scaling}
+$\tilde E=E/\varepsilon_0$, $\tilde B=B/\Phi_0$; $1-\cos(2\pi\chi)$ pins to integer plateaus, consistent with the discrete EB ontology (Sec.~\ref{sec:discrete_EB}).
+
+\subsection{Topological coupling}
+Chern–Simons/Hopf‑like term $\epsilon^{\mu\nu\rho\sigma}A_\mu F_{\nu\rho}\,\hat d_\sigma$ ties global twist to emergent charge and chirality.
+
+\subsection{Integrating out $\Theta$}
+Quadratic $V(\Theta)$ and linear coupling $\Theta\,\mathcal{C}[F]$ yield $\Theta\propto\mathcal{C}[F]$ and an effective linear effort penalty—continuum image of tick‑spend with unit cost $\Delta S=h$.
+
+\section{Species Catalogue (continuum images)}
+\paragraph{Electron/Positron.} Single 3‑anchor loop (mirror windings).\\
+\paragraph{Photon $n$‑classes.} $n=1$ fragile, $n=2$ metastable, $n=3$ first robust, $n\ge4$ robust$\to$strong.\\
+\paragraph{Proton/Neutron.} Triple‑loop positron‑like composite (net $+e$) and double‑loop neutral composite with residual circulation; weak‑like unlocking: $n\to p+e^-+n{=}1$ drift packet.
+
+% === Insert restored triples mapping ===
+\section{Composite Mapping: Triples and Stability}
+\label{sec:triples}
+DEST models stable matter as loop composites bound in shared $\Theta$ wells with phase‑lock. The minimal stable loop is the three‑anchor electron/positron loop; higher composites form by coordinated sharing/phase‑locking of these loops:
+
+\begin{itemize}
+  \item \textbf{One triple (single 3‑anchor loop):} electron/positron (mirror windings). Stability arises from three‑anchor minimality and integerized EB plateaus.
+  \item \textbf{Two triples (double‑loop composite):} neutron. External winding cancels ($W{=}0$) while internal circulation remains; weak‑like unlocking yields $p + e^- + n{=}1$ drift packet.
+  \item \textbf{Three triples (phase‑locked triad):} proton/anti‑proton. Two windings cancel externally leaving net $+e$ (or $-e$ for the antiparticle); tight confinement from triadic ($\sim120^{\circ}$) phase‑lock in a shared $\Theta$ well.
+\end{itemize}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.46\textwidth]{figures/proton_triple_loops.png}\hfill
+  \includegraphics[width=.46\textwidth]{figures/neutron_double_loops.png}
+  \caption{Left: \emph{Proton} as a phase‑locked triad of three 3‑anchor loops in a shared $\Theta$ well. Right: \emph{Neutron} as a double‑loop composite with external $W{=}0$ and residual internal circulation. Placeholders shown.}
+  \label{fig:proton_neutron_triples}
+\end{figure}
+
+\section{Mechanistic Accounts}
+\subsection{Atomic orbitals and spectra}
+Bound electrons are 3‑anchor loops in a nuclear $\Theta$ well. Orbital clouds are time‑averaged anchor occupancies; shells are direction‑rotation attractors on $S^2$. Spectra arise from $\Delta$ (rotation‑mode) action budgets; Zeeman‑like splitting appears under anisotropic $\Theta$.
+
+\subsection{Chemical and nuclear bonding}
+Bonds are partial sharing: (chemical) time‑averaged anchor occupancy within the bond region and reduced $\Theta_{\text{overlap}}$; (nuclear) loop‑orientation sharing with phase‑lock. Metrics: shared\_fraction, $\Theta_{\text{overlap}}$, coupling $C=\langle\cos\Delta\varphi\rangle$.
+
+\subsection{Weak/Strong analogues}
+Strong‑like: multi‑loop confinement in shared $\Theta$ wells with rising separation cost. Weak‑like: loop unlocking and topology reconfiguration with an $n=1$ drift packet (neutrino analogue) and chirality from loop handedness.
+
+\section{Predictions and Validation}
+(i) Photon family: $\tau(n)$ hierarchy; pair‑creation counts $(3{+}3)\gg(2{+}4)>(1{+}5)$. (ii) Orbitals: 1s/2s/2p/3d densities and line tables; Zeeman‑like splitting under anisotropic $\Theta$. (iii) Nuclear: deuteron binding plateaus; unlock thresholds; photon inventory on unlock. (iv) Gravity correspondence: ray bending/redshift vs designed $\Theta$ profiles.
+
+\section{Discussion and Outlook}
+DEST compresses field content to discrete EM geometry with tick‑quantized updates, producing EM as primitive, $\Theta$‑curvature as gravity‑like behavior, and weak/strong as unlocking/confinement of multi‑loop structures. Next steps include precision spectroscopy, multi‑electron chemistry, and quantitative relativistic correspondence.
+
+\textit{Historical perspective.} Over roughly a century, the wavefunction framework became the dominant language for microphysics, and for many decades it has shaped how questions are posed and answers validated. About fifty years ago, experimental and theoretical hints appeared that could be read in more than one way; one reading—pursued here—encourages a discrete, mechanistic account of electromagnetic content. I do not claim to overturn established achievements, but simply to note the span of time over which alternative readings were possible and to situate DEST within that longer conversation. If DEST’s discrete EB ontology and the $e/3$ compositeness principle prove fruitful, then 2026 may mark a moment when this alternative is articulated clearly enough to be tested.
+
+\section*{Notes on Development}
+An online video discussion of photon topology~\cite{VideoInspiration}
+prompted me to re‑examine toroidal‑photon models, including
+an early semi‑classical analysis~\cite{WilliamsonVanDerMark1997} that became
+an initial conceptual seed for DEST. This historical note is included for
+completeness; the technical content of DEST is developed independently here.
+
+\section*{Acknowledgments}
+I am grateful to the science communicators on YouTube and other open platforms who bring advanced ideas in physics to broad audiences and keep difficult concepts in active public conversation. Their work has been invaluable to my curiosity and persistence in developing DEST~\cite{Hill2022YouTubeSciComm}.
+
+\begin{thebibliography}{9}
+\bibitem{WilliamsonVanDerMark1997}
+J.~G. Williamson and M.~B. van~der Mark, ``Is the electron a photon with toroidal topology?'', \emph{Annales de la Fondation Louis de Broglie} \textbf{22}(2), 133--160 (1997).
+
+\bibitem{VideoInspiration}
+``Is the Electron a Photon?'', YouTube, accessed 15 Feb 2026. Available at: \url{https://youtu.be/f8O3XMrC8hg?si=DDXUnXuJq5jOdJpy}
+
+\bibitem{Hill2022YouTubeSciComm}
+Hill, V. M., Grant, W. J., McMahon, M. L., \& Singhal, I. (2022). How prominent science communicators on YouTube understand the impact of their work. \emph{Frontiers in Communication}, 7, 1014477. https://doi.org/10.3389/fcomm.2022.1014477
+
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,36 @@
+
+# This CITATION.cff helps services and people cite this work correctly.
+# Update the 'version' and 'date-released' keys with each GitHub release.
+
+cff-version: 1.2.0
+message: "If you use DEST in your work, please cite this software and the paper."
+title: "Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework"
+authors:
+  - family-names: Henkel
+    given-names: Christopher
+    email: christopher.henkel@gmail.com
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+abstract: >-
+  DEST is a unified, mechanistic program in which observables emerge from a
+  single action with tick-quantized local updates, a scalar Theta-curvature
+  that acts as effective geometry, integerized electromagnetic (EB) content,
+  and an e/3 compositeness postulate for electric content.
+keywords:
+  - DEST
+  - discrete electromagnetism
+  - e/3 compositeness
+  - EB counters
+  - Theta curvature
+license: "MIT"  # adjust to match your LICENSE file
+repository-code: "https://github.com/dest-chenkel/dest"
+url: "https://github.com/dest-chenkel/dest"
+version: "v0.1-public"
+date-released: "2026-02-27"
+preferred-citation:
+  type: article
+  title: "Discrete Electromagnetic Spacetime Theory (DEST): A Unified, Mechanistic Framework"
+  authors:
+    - family-names: Henkel
+      given-names: Christopher
+  year: 2026
+  journal: "Preprint"

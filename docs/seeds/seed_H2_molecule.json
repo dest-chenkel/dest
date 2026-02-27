@@ -1,0 +1,23 @@
+{
+  "system": "H2_molecule",
+  "nuclei": [
+    {"type": "proton", "species": "S0009_SP_proton", "position": [-3,0,0]},
+    {"type": "proton", "species": "S0009_SP_proton", "position": [3,0,0]}
+  ],
+  "electrons": [
+    {"species": "S0005_atomic_electron", "anchors": [
+      {"pos": [-1.5,0,0], "E_mag": +1, "B_mag": 0, "direction": [0,1,0]},
+      {"pos": [-2.5,1.732,0], "E_mag": +1, "B_mag": 0, "direction": [-0.866,-0.5,0]},
+      {"pos": [-2.5,-1.732,0], "E_mag": +1, "B_mag": 0, "direction": [0.866,-0.5,0]}
+    ]},
+    {"species": "S0005_atomic_electron", "anchors": [
+      {"pos": [1.5,0,0], "E_mag": +1, "B_mag": 0, "direction": [0,-1,0]},
+      {"pos": [2.5,-1.732,0], "E_mag": +1, "B_mag": 0, "direction": [0.866,0.5,0]},
+      {"pos": [2.5,1.732,0], "E_mag": +1, "B_mag": 0, "direction": [-0.866,0.5,0]}
+    ]}
+  ],
+  "lattice": {"L": 96, "a": 1.0},
+  "elasticity": {"epsilon": 2},
+  "run": {"ticks": 300000},
+  "note": "Measure shared_fraction in midplane and Θ_overlap vs isolated atoms."
+}

@@ -1,0 +1,2 @@
+Suggested primary: physics.gen-ph (General Physics)
+Alternates (depending on emphasis): physics.class-ph; quant-ph (if quantum foundations angle).

@@ -1,0 +1,10 @@
+column,description
+step,simulation tick index
+anchor_id,0..2 per electron (extend for composites)
+r,radial distance from nucleus
+theta,polar angle (rad)
+phi,azimuthal angle (rad)
+occupancy,incremental occupancy contribution
+Theta_local,local Θ density at cell
+EB_ratio_err,|E/B - target| accumulated
+rounding_stalls,count per 1e3 ticks

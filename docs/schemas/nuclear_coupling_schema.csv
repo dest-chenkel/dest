@@ -1,0 +1,8 @@
+column,description
+step,simulation tick index
+loop_id,proton L1..L3; neutron E/E+
+net_winding_external,signed external winding
+Theta_density,local Θ
+coupling_metric,phase-lock score
+unlock_flag,0/1 when unlocking threshold crossed
+magnetic_moment_est,estimate from anchor circulation
